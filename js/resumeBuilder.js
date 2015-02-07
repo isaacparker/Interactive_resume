@@ -86,7 +86,7 @@ var work = {
         "title": "Art Handler",
         "dates": "2014",
         "location": "Brooklyn, NY",
-        "description": "nothing yet"
+        "description": "bla bla."
     }]
 };
 
@@ -99,12 +99,20 @@ $("#header").prepend(formattedName);
 $("#footerContacts").append(formattedContact);
 $("#main").append(formattedPicture);
 
-for (job in work.jobs) {
-    $("#workExperience").append(HTMLworkStart);
+function displayWork() {
+    for (job in work.jobs) {
+        $("#workExperience").append(HTMLworkStart);
+        var formattedEmployer = HTMLworkEmployer.replace("%data%", work.jobs[job].employer);
+        var formattedTitle = HTMLworkTitle.replace("%data%", work.jobs[job].title);
+        var formattedEmployerTitle = formattedEmployer + formattedTitle;
+        $(".work-entry:last").append(formattedEmployerTitle);
 
-    var formattedEmployer = HTMLworkEmployer.replace("%data%", work.jobs[job].employer);
-    var formattedTitle = HTMLworkTitle.replace("%data%", work.jobs[job].title);
-    var formattedEmployerTitle = formattedEmployer + formattedTitle;
+        var formattedDates = HTMLworkDates.replace("%data%", work.jobs[job].dates);
+        $(".work-entry:last").append(formattedDates);
 
-    $(".work-entry:last").append(formattedEmployerTitle);
+        var formattedDescription = HTMLworkDescription.replace("%data", work.jobs[job].description);
+        $(".work-entry:last").append(formattedDescription);
+    }
 };
+
+displayWork();
