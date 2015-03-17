@@ -1,0 +1,422 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"format",
+				"formattedSkill"
+			],
+			[
+				"s",
+				"spacer"
+			],
+			[
+				"fo",
+				"formattedPicture"
+			],
+			[
+				"formatted",
+				"formattedName"
+			],
+			[
+				"FON",
+				"font-weight"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 5059,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/resumeBuilder.js",
+			"settings":
+			{
+				"buffer_size": 4554,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 107.0,
+		"selected_items":
+		[
+			[
+				"Browser",
+				"View In Browser"
+			],
+			[
+				"User",
+				"Preferences: Key Bindings - User"
+			],
+			[
+				"user",
+				"Preferences: Key Bindings - User"
+			],
+			[
+				"sideb",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"colo",
+				"Color Picker"
+			],
+			[
+				"prett",
+				"HTMLPrettify"
+			],
+			[
+				"packs",
+				"Package Control: Install Package"
+			],
+			[
+				"page",
+				"Package Control: Install Package"
+			],
+			[
+				"open",
+				"File: Open In Browser - Production Server"
+			],
+			[
+				"packag",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"pak",
+				"Package Control: Install Package"
+			],
+			[
+				"packg",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"paacka",
+				"Package Control: Install Package"
+			],
+			[
+				"packga",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"package insta",
+				"Package Control: Install Package"
+			],
+			[
+				"package ins",
+				"Package Control: Install Package"
+			],
+			[
+				"package in",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 453.0
+	},
+	"console":
+	{
+		"height": 428.0,
+		"history":
+		[
+			"-h",
+			"subl --help,",
+			"subl --help",
+			"subl .",
+			"subl",
+			"$ ln -s \"/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl\" /bin/subl",
+			"ln -s \"/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl\" ~/bin/subl",
+			"sublime.log_commands(True)",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/Isaac/isaacparker.github.io/resume/js"
+	],
+	"file_history":
+	[
+		"/Users/Isaac/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/Isaac/Library/Application Support/Sublime Text 3/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/Isaac/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/Isaac/isaacparker.github.io/Responsive/main.css",
+		"/Users/Isaac/Library/Application Support/Sublime Text 3/Packages/User/View In Browser.sublime-settings",
+		"/Users/Isaac/Library/Application Support/Sublime Text 3/Packages/View In Browser/View In Browser.sublime-settings",
+		"/Users/Isaac/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/Isaac/Desktop/<div data-reading-player=\"\" data-markdown=\"textFra",
+		"/Users/Isaac/isaacparker.github.io/.git/COMMIT_EDITMSG",
+		"/Users/Isaac/Desktop/polar bear website/polor page/polorcss.css",
+		"/Users/Isaac/Desktop/polar bear website/polor page/polar.html",
+		"/Users/Isaac/pappu-pakia/js/utils.js",
+		"/Users/Isaac/GitHub/isaacparker.github.io/index.html",
+		"/Users/Isaac/isaacparker.github.io/index.html",
+		"/Users/Isaac/.bash_profile",
+		"/Users/Isaac/Downloads/Prechu - Minimal Website Template For Free Download - cssauthor.com.rar Folder/READ ME.txt",
+		"/Users/Isaac/Desktop/noktirne files/noktirne resp css/index.html",
+		"/Users/Isaac/Desktop/noktirne files/noktirne resp css/style.css",
+		"/Users/Isaac/Downloads/microframe-master/README.md",
+		"/Users/Isaac/GitHub/isaacparker.github.io/todolist/images/cloud1.png",
+		"/Users/Isaac/GitHub/isaacparker.github.io/todolist/css/style.css",
+		"/Users/Isaac/GitHub/isaacparker.github.io/todolist/index.html",
+		"/Users/Isaac/Library/Application Support/Sublime Text 3/Packages/User/SideBarEnhancements/Open With/Side Bar.sublime-menu",
+		"/Users/Isaac/Library/Application Support/Sublime Text 3/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
+		"/Users/Isaac/Desktop/polorcss.css",
+		"/Users/Isaac/Desktop/untitled.html",
+		"/Users/Isaac/.adobe/md5",
+		"/Users/Isaac/Library/Application Support/Sublime Text 3/Packages/User/GutterColor.sublime-settings"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"years",
+			"super",
+			"	{ \"keys\": [\"super+l\"], \"command\": \"expand_selection\", \"args\": {\"to\": \"line\"} },\n",
+			"super",
+			"ctrl+shift+space",
+			"Newark",
+			"HI",
+			"\"\"\n",
+			"}]\n",
+			"gif",
+			"redesigned",
+			" \"",
+			"Photography",
+			"}\n",
+			"isaacparker",
+			":",
+			"\"",
+			"	\"",
+			"\"",
+			"\":",
+			"contact",
+			"firefox",
+			"browser",
+			"Browser",
+			"+",
+			"\n+",
+			"-",
+			"h2",
+			"}\n",
+			"{\n",
+			"lp-pom-text-19",
+			"div"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5059,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4194,
+								4052
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1332.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "js/resumeBuilder.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4554,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3751,
+								3751
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2
+						},
+						"translation.x": 0.0,
+						"translation.y": 1023.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"project": "UD_resume.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"~/Library/Application Support/Sublime Text 3/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 143.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

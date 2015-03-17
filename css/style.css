@@ -8,29 +8,42 @@
   overflow: auto;
 }
 
-.education-entry, .work-entry, .project-entry {
+.education-entry, .work-entry {
   padding-left: 5%;
   padding-right: 5%;
 }
 
+.project-entry {
+  clear: both;
+  padding: 0 35px 10% 35px;
+  }
+
+#projects {
+ margin-bottom: 16px
+
+}
+
 h1 {
-  font-size: 40px;
-  color: #F5A623;
-  line-height: 48px;
-  display: inline;
+font-size: 40px;
+color: #fff;
+background-color: #d74627;
+line-height: 48px;
+display: inline-block;
+padding: 6px 14px;
+
 }
 
 h2 {
   font-weight: bold;
   font-size: 24px;
-  color: #999999;
+  color: black;
   line-height: 29px;
-  padding: 10px;
+  padding-bottom: 10px;
+  padding-top: 50px;
 }
 
 h3 {
-  font-style: italic;
-  font-size: 20px;
+  font-size: 16px;
   color: #000000;
   line-height: 22px;
 }
@@ -43,7 +56,6 @@ h4 {
 }
 
 h2, h3, h4, h5 {
-  padding:10px;
   padding-left: 5%;
   padding-right: 5%;
 }
@@ -52,7 +64,7 @@ h2, h3, h4, h5 {
 .date-text {
   font-style: italic;
   font-size: 14px;
-  color: #999999;
+  color: #666;
   line-height: 16px;
   float: left;
 }
@@ -67,13 +79,15 @@ h2, h3, h4, h5 {
 }
 
 p {
-  font-size: 14px;
+  font-size: 16px;
   color: #333333;
   line-height: 21px;
+  margin: 10px 0 26px 0;
+
 }
 
 a {
-  color: #1199C3;
+ color: #D74627;
   text-decoration: none;
   margin-top: 10px;
   display: block;
@@ -81,27 +95,59 @@ a {
 
 .welcome-message {
   font-style: italic;
-  font-size: 18px;
-  color: #F3F3F3;
+  font-size: 30px;
+  color: #d74627;
   line-height: 28px;
+  text-align: center;
 }
-
+#message {
+  border-top-width: 1px;
+  border-top-color: #d74627;
+  padding:60px;
+  text-align: center;
+}
+.quote {
+  text-align: center;
+  padding: 36px;
+}
 #skillsH3 {
-  color: #F5AE23;
-  display: none;
+  color: #d74627;
+  display: inline-block;
+  background-color: white;
+  padding:4px 8px 4px 8px;
+    margin-left: 18px;
+    margin-bottom:10px;
+
 }
 
 .orange {
-  background-color: #F5AE23;
+  background-color: #d74627;
 }
 
-.orange-text {
-  color: #F5AE23;
+.red-text-top {
+  color: #d74627;
+  font-size: 14px;
+  font-weight: bold;
+
 }
 
 .white-text {
+  color: #999;
+  font-size: 16px;
+
+}
+.skills-text {
+  color: white;
+  font-size: 18px;
   font-weight: bold;
-  color: #FFFFFF;
+  margin-left: 18px;
+  line-height: 26px;
+}
+
+.bio-text-top {
+  color: black;
+  font-size: 14px;
+  font-weight: bold;
 }
 
 .gray {
@@ -111,12 +157,21 @@ a {
 }
 
 .dark-gray {
-  background-color: #4A4A4A;
+  background-color: #e6e6e6;
 }
 
 /* TODO: Replace with image later */
 #header {
-  background-color: #484848;
+  background-color: #F1F1F1;
+  padding: 35px 0 12px 35px;
+}
+.role{
+font-size: 36px;
+color: black;
+display: inline;
+padding: 6px 14px;
+border-width: 1px;
+border-color: #d74627;
 }
 
 .flex-box {
@@ -125,7 +180,7 @@ a {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-  padding: 10px;
+  padding: 26px 0 26px 0;
 }
 
 .center-content {
@@ -135,19 +190,30 @@ a {
   padding-bottom: 2.5%
 }
 
+/*#topContacts{
+background-color: #ffa503
+}*/
 ul {
   list-style-type: none;
 }
 
 .biopic {
   float: left;
-  padding: 10px;
   width: 200px;
   display: none;
 }
 
-img {
-  padding: 10px;
+
+.project-img {
+  padding: 0 16px 16px 0;
+  max-width: 100%;
+  float: left
+
+
+}
+#picSkills {
+background-color: #d74627;
+padding: 60px 0 60px 35px;
 }
 
 /* Bar chart stuff */
@@ -166,6 +232,10 @@ span {
   padding: 5px;
 }
 
+.project-info {
+float: none;
+}
+
 #letsConnect {
   text-align: center;
 }
@@ -174,11 +244,17 @@ span {
   #letsConnect {
     margin-top: 5%;
   }
+    .biopic {
+    display: block;
+  }
 }
 
 @media only screen and (max-width:900px) {
   .biopic {
     width: 175px;
+  }
+    .biopic {
+    display: block;
   }
 }
 
@@ -189,9 +265,18 @@ span {
   .biopic {
     width: 150px;
   }
-  .welcome-message {
-    display: none;
+  #skills {
+    display:block;
   }
+  .welcome-message {
+    display: block;
+  }
+    .biopic {
+    display: block;
+  }
+    .project-info {
+   float: right;
+}
 }
 
 #map {
@@ -205,10 +290,15 @@ span {
   height: 400px;
   width: 100%;
   padding-bottom: 5%;
+  clear:left;
+  background-color: #F1F1F1;
 }
 
 @media only screen and (min-width: 750px) {
-  #skillsH3,
+/*  #skillsH3 {
+    display:inline;
+  }*/
+  #skills,
   .biopic {
     display: block;
   }
